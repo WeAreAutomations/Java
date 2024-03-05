@@ -16,8 +16,8 @@ public class Box extends JPanel {
         setBackground(Config.getColor(Status.NONE));
     }
 
-    public void initCells(int x, int y) {
-    }
+//    public void initCells(int x, int y) {
+//    }
 
     public void setColor(){
         setBackground(Config.getColor(cell.status));
